@@ -6,11 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "tsc",
-    "start": "tsc -w" //propriedade add para o compilador funcionar auto, deve -se dar o comando npm start
+    "start": "tsc -w"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jquery": "^3.3.31",
     "typescript": "^3.5.3"
   }
 }
