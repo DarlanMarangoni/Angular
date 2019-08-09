@@ -2,7 +2,8 @@
     "compilerOptions": {
         "target": "es6",//traduz ts para js
         "outDir": "app/js",//onde cai o resultado da compilaçao
-        "noEmitOnError": true //nao deixa gerar js se tiver erro de compilaçao
+        "noEmitOnError": true, //nao deixa gerar js se tiver erro de compilaçao
+        "noImplicitAny": true // obrigando o ts a declarar um tipo de dado
     },
     "include": [//indica os arquivos que tem que levar em conta durante a compilacao
         "app/ts/**/*"
